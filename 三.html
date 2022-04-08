@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <h1 style="color: red;text-align:center">分析了红楼梦中与林黛玉相关的一些角色与林黛玉的相关度</h1>
+<div id="4848a6055b9a4640b2288d5e80ad95dd" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_4848a6055b9a4640b2288d5e80ad95dd = echarts.init(
+            document.getElementById('4848a6055b9a4640b2288d5e80ad95dd'), 'white', {renderer: 'canvas'});
+        var option_4848a6055b9a4640b2288d5e80ad95dd = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 5000,
+                "edgeLength": [
+                    10,
+                    50
+                ],
+                "gravity": 0.2
+            },
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": true,
+            "data": [
+                {
+                    "name": "\u5b9d\u7389",
+                    "fixed": false,
+                    "value": 3793,
+                    "symbolSize": 189.65
+                },
+                {
+                    "name": "\u8d3e\u6bcd",
+                    "fixed": false,
+                    "value": 1321,
+                    "symbolSize": 66.05
+                },
+                {
+                    "name": "\u738b\u592b\u4eba",
+                    "fixed": false,
+                    "value": 1061,
+                    "symbolSize": 53.05
+                },
+                {
+                    "name": "\u9edb\u7389",
+                    "fixed": false,
+                    "value": 948,
+                    "symbolSize": 47.4
+                },
+                {
+                    "name": "\u5b9d\u9497",
+                    "fixed": false,
+                    "value": 781,
+                    "symbolSize": 39.05
+                },
+                {
+                    "name": "\u8d3e\u740f",
+                    "fixed": false,
+                    "value": 701,
+                    "symbolSize": 35.05
+                },
+                {
+                    "name": "\u859b\u59e8\u5988",
+                    "fixed": false,
+                    "value": 455,
+                    "symbolSize": 22.75
+                },
+                {
+                    "name": "\u51e4\u59d0\u513f",
+                    "fixed": false,
+                    "value": 454,
+                    "symbolSize": 22.7
+                },
+                {
+                    "name": "\u8d3e\u653f",
+                    "fixed": false,
+                    "value": 449,
+                    "symbolSize": 22.45
+                },
+                {
+                    "name": "\u63a2\u6625",
+                    "fixed": false,
+                    "value": 437,
+                    "symbolSize": 21.85
+                },
+                {
+                    "name": "\u7d2b\u9e43",
+                    "fixed": false,
+                    "value": 412,
+                    "symbolSize": 20.6
+                },
+                {
+                    "name": "\u90a2\u592b\u4eba",
+                    "fixed": false,
+                    "value": 287,
+                    "symbolSize": 14.35
+                },
+                {
+                    "name": "\u60dc\u6625",
+                    "fixed": false,
+                    "value": 153,
+                    "symbolSize": 7.65
+                },
+                {
+                    "name": "\u8fce\u6625",
+                    "fixed": false,
+                    "value": 143,
+                    "symbolSize": 7.15
+                },
+                {
+                    "name": "\u6797\u4e4b\u5b5d",
+                    "fixed": false,
+                    "value": 143,
+                    "symbolSize": 7.15
+                },
+                {
+                    "name": "\u8d75\u59e8\u5a18",
+                    "fixed": false,
+                    "value": 133,
+                    "symbolSize": 6.65
+                },
+                {
+                    "name": "\u96ea\u96c1",
+                    "fixed": false,
+                    "value": 107,
+                    "symbolSize": 5.35
+                },
+                {
+                    "name": "\u5b9d\u7434",
+                    "fixed": false,
+                    "value": 107,
+                    "symbolSize": 5.35
+                }
+            ],
+            "edgeLabel": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "edgeSymbol": [
+                null,
+                null
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u8d3e\u6bcd",
+                    "value": 607
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u8d3e\u740f",
+                    "value": 34
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u90a2\u592b\u4eba",
+                    "value": 99
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u738b\u592b\u4eba",
+                    "value": 317
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u8fce\u6625",
+                    "value": 102
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u63a2\u6625",
+                    "value": 364
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u5b9d\u7389",
+                    "value": 2618
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u96ea\u96c1",
+                    "value": 425
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u859b\u59e8\u5988",
+                    "value": 193
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u5b9d\u9497",
+                    "value": 597
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u8d3e\u653f",
+                    "value": 21
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u60dc\u6625",
+                    "value": 53
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u7d2b\u9e43",
+                    "value": 1315
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u51e4\u59d0\u513f",
+                    "value": 283
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u8d75\u59e8\u5a18",
+                    "value": 11
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u5999\u7389",
+                    "value": 64
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u5b9d\u7434",
+                    "value": 67
+                },
+                {
+                    "source": "\u9edb\u7389",
+                    "target": "\u6797\u4e4b\u5b5d",
+                    "value": 17
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u5173\u7cfb\u56fe-\u7ea2\u697c\u68a6\u4eba\u7269",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_4848a6055b9a4640b2288d5e80ad95dd.setOption(option_4848a6055b9a4640b2288d5e80ad95dd);
+    </script>
+</body>
+</html>
